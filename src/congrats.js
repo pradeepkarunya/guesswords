@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 const guessCongratsWord = 'Congratulation! You Guessed the Word!!!';
 
-export default (props) => {
+const Congrats = (props) => {
     if(props.success){
         return(<div data-test="component-congrats">
             <span data-test="congrats-message">
@@ -13,3 +14,9 @@ export default (props) => {
         </div>)
     }
 }
+
+Congrats.propTypes = {
+    success: PropTypes.bool.isRequired
+};
+
+export default Congrats;
