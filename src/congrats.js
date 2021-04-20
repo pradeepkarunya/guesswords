@@ -3,7 +3,7 @@ const guessCongratsWord = 'Congratulation! You Guessed the Word!!!';
 
 const Congrats = (props) => {
     if(props.success){
-        return(<div data-test="component-congrats">
+        return(<div data-test="component-congrats" className="alert alert-success">
             <span data-test="congrats-message">
                 {guessCongratsWord}
             </span>

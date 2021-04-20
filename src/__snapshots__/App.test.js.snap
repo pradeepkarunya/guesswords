@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with span message 1`] = `
+<div
+  className="App"
+>
+  <div
+    data-test="component-app"
+  />
+  <div>
+    Hi
+  </div>
+</div>
+`;
